@@ -8,6 +8,7 @@ import com.github.javaparser.ast.body.FieldDeclaration;
 import com.github.javaparser.ast.body.MethodDeclaration;
 import com.github.javaparser.ast.body.VariableDeclarator;
 import com.github.javaparser.ast.type.ClassOrInterfaceType;
+import manage_inheritence.InherObject;
 import utils.NameMaker;
 
 import java.util.*;

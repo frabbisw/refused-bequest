@@ -5,7 +5,6 @@ import com.github.javaparser.ast.CompilationUnit;
 import com.github.javaparser.ast.body.TypeDeclaration;
 import com.github.javaparser.ast.visitor.VoidVisitorAdapter;
 import manage_classes.ClassObjectHandler;
-import manage_classes.InherObject;
 
 import java.io.File;
 import java.io.IOException;

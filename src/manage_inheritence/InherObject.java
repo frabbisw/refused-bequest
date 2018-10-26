@@ -1,4 +1,6 @@
-package manage_classes;
+package manage_inheritence;
+
+import manage_classes.ClassObjectHandler;
 
 import java.util.*;
 

@@ -3,7 +3,6 @@ package manage_inheritence;
 import collect_classes.ClassFinder;
 import collect_classes.FileExplorer;
 import manage_classes.ClassObjectHandler;
-import manage_classes.InherObject;
 
 import java.util.*;
 
