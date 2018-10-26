@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaparser-core-3.6.19">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/bin/javaparser-core-3.6.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
