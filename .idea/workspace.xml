@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b27c5ee-8c1b-499c-91ba-b470136f2d28" name="Default Changelist" comment="" />
+    <list default="true" id="9b27c5ee-8c1b-499c-91ba-b470136f2d28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.attach_pid3016" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3231" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3591" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3632" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid5256" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid5326" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid5904" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid5949" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid6166" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid6275" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid6422" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid6470" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid7848" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid8187" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +51,9 @@
       <find>full</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -56,12 +75,14 @@
     <option name="width" value="1275" />
     <option name="height" value="708" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,23 +95,10 @@
               <item name="refused bequest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="refused bequest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="refused bequest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="refused bequest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="refused bequest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_inheritence" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,9 +189,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613546" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26613545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -197,9 +205,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329582" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329582" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
