@@ -1,6 +1,6 @@
 package manage_inheritence;
 
-import manage_classes.ClassObjectHandler;
+import manage_collaboration.ClassObjectHandler;
 
 import java.util.*;
 
@@ -11,6 +11,8 @@ public class InherObject {
     private HashSet<String> parentsAttributes;
     private HashSet<String> parentsMethods;
     private ArrayList<InherObject> inheritedObjects;
+    private Set<String> usedMethods;
+    private Set<String> usedAttributes;
     boolean visited;
 
     public InherObject(String fullName)
@@ -19,6 +21,8 @@ public class InherObject {
         this.parentsAttributes=new HashSet<>();
         this.parentsMethods=new HashSet<>();
         this.inheritedObjects=new ArrayList<>();
+        this.usedMethods=new HashSet<>();
+        this.usedAttributes=new HashSet<>();
         this.visited=false;
     }
 
@@ -78,5 +82,15 @@ public class InherObject {
     public void visit()
     {
         this.visited=true;
+    }
+
+    public void addUsedAttribute(String att)
+    {
+        this.usedAttributes.add(att);
+    }
+
+    public void addUsedMethod(String method)
+    {
+        this.usedMethods.add(method);
     }
 }

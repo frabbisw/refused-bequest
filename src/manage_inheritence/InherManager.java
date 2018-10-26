@@ -2,21 +2,20 @@ package manage_inheritence;
 
 import collect_classes.ClassFinder;
 import collect_classes.FileExplorer;
-import manage_classes.ClassObjectHandler;
+import manage_collaboration.ClassObjectHandler;
 
 import java.util.*;
 
 public class InherManager {
     FileExplorer explorer;
     ArrayList<InherObject> inherObjects;
-    private Map<String, InherObject> dfsMap;
+    private Map<String, InherObject> inherMap;
 
     public InherManager()
     {
         explorer= ClassFinder.getClassExplorer();
         inherObjects=new ArrayList<>();
-        dfsMap=new TreeMap<>();
-
+        inherMap =new TreeMap<>();
         prepareClasses();
     }
     private void prepareClasses() {
@@ -24,20 +23,17 @@ public class InherManager {
             handler.prepareInheritenceMap(explorer);
 
         for (ClassObjectHandler objectHandler : explorer.getListOfClasses())
-            dfsMap.put(objectHandler.getInherObject().getFullName(), objectHandler.getInherObject());
+            inherMap.put(objectHandler.getInherObject().getFullName(), objectHandler.getInherObject());
 
         prepareInheriTree();
     }
     private void dfs(InherObject inherObject)
     {
-        System.out.println(inherObject.getFullName());
-        System.out.println("\t"+inherObject+" "+inherObject.isVisited());
-
         inherObject.visit();
 
         for(InherObject tmp : inherObject.getInheritedObjects())
         {
-            InherObject parent = dfsMap.get(tmp.getFullName());
+            InherObject parent = inherMap.get(tmp.getFullName());
             if(!parent.isVisited())
             {
                 dfs(parent);
@@ -52,12 +48,12 @@ public class InherManager {
     }
     private void prepareInheriTree()
     {
-        for(String name : dfsMap.keySet())
-            if(!dfsMap.get(name).isVisited())
-                dfs(dfsMap.get(name));
+        for(String name : inherMap.keySet())
+            if(!inherMap.get(name).isVisited())
+                dfs(inherMap.get(name));
 
-        for(String name : dfsMap.keySet())
-            inherObjects.add(dfsMap.get(name));
+        for(String name : inherMap.keySet())
+            inherObjects.add(inherMap.get(name));
     }
     public ArrayList<ClassObjectHandler> getAllHandlers()
     {
@@ -82,5 +78,13 @@ public class InherManager {
             System.out.println("\t"+object.getOwnAttributes());
             System.out.println("\t"+object.getParentsAttributes());
         }
+    }
+    public void addUsedAttribute(String className, String attribute)
+    {
+        inherMap.get(className).addUsedAttribute(attribute);
+    }
+    public void addUsedMethod(String className, String method)
+    {
+        inherMap.get(className).addUsedMethod(method);
     }
 }

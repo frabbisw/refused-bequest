@@ -1,4 +1,4 @@
-package manage_classes;
+package manage_collaboration;
 
 import collect_classes.FileExplorer;
 import com.github.javaparser.ast.ImportDeclaration;
@@ -21,7 +21,7 @@ public class ClassObjectHandler implements Comparable<ClassObjectHandler> {
     private ArrayList<String>imports;
     private Set<ClassObjectHandler> accessedClassesList;
     private ArrayList<ClassObjectHandler> inheritedClasses;
-    private ClassOrInterfaceDeclaration clazz;
+    public ClassOrInterfaceDeclaration clazz;
 
     InherObject classObject;
 
@@ -143,5 +143,9 @@ public class ClassObjectHandler implements Comparable<ClassObjectHandler> {
     public InherObject getInherObject()
     {
         return classObject;
+    }
+
+    public Set<ClassObjectHandler> getAccessedClassesList() {
+        return accessedClassesList;
     }
 }
