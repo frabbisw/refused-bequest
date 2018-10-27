@@ -63,6 +63,7 @@ public class InherManager {
     {
         return this.inherObjects;
     }
+
     public static void main(String[] args) {
         //ClassFinder.setProjectPath("/home/rabbi/bin/samples/effective-java-examples-master");
         ClassFinder.setProjectPath("/home/rabbi/bin/samples/hablu");
@@ -75,8 +76,8 @@ public class InherManager {
         {
             System.out.println(object.getFullName());
             //System.out.println("\t"+object);
-            System.out.println("\t"+object.getOwnAttributes());
-            System.out.println("\t"+object.getParentsAttributes());
+            System.out.println("\t"+object.getOwnMethods());
+            System.out.println("\t"+object.getParentsMethods());
         }
     }
     public void addUsedAttribute(String className, String attribute)

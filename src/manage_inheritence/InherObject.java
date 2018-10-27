@@ -93,4 +93,38 @@ public class InherObject {
     {
         this.usedMethods.add(method);
     }
+
+    public Collection<String> getAllUsedMethods()
+    {
+        return usedMethods;
+    }
+
+    public Collection<String> getAllUsedAttributes()
+    {
+        return usedAttributes;
+    }
+
+    public Collection<String> getUnusedParentMethods() {
+        Set<String>tmp=new HashSet<>();
+        tmp.addAll(parentsMethods);
+
+        for(String m : usedMethods)
+        {
+            if(tmp.contains(m))
+                tmp.remove(m);
+        }
+        return tmp;
+    }
+
+    public Collection<String> getUnusedParentAttributes() {
+        Set<String>tmp=new HashSet<>();
+        tmp.addAll(parentsAttributes);
+
+        for(String m : usedAttributes)
+        {
+            if(tmp.contains(m))
+                tmp.remove(m);
+        }
+        return tmp;
+    }
 }

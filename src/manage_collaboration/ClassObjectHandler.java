@@ -144,6 +144,10 @@ public class ClassObjectHandler implements Comparable<ClassObjectHandler> {
     {
         return classObject;
     }
+    public void setInherObject(InherObject inherObject)
+    {
+        this.classObject=classObject;
+    }
 
     public Set<ClassObjectHandler> getAccessedClassesList() {
         return accessedClassesList;
