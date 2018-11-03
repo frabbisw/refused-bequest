@@ -28,22 +28,44 @@ public class ClassManager {
 
     private void prepareRefusedBequests() {
         String out="";
-        out+="Class Name;";
-        out+="Unused Parents Attributes;";
-        out+="Unused Parents Methods \n";
+        out+="Class Name,";
+        out+="Inherited Attributes,";
+        out+="Unused Attributes,";
+        out+="Used Attributes Percentage,";
+        out+="Inherited Methods,";
+        out+="Unused Methods,";
+        out+="Used Methods Percentage\n";
 
+        double tpas=0,tuas=0,tpms=0,tums=0;
         for (InherObject object : inherManager.getAllInherObjects())
         {
-            out+=object.getFullName();
-            out+=";";
-            out+=object.getUnusedParentAttributes();
-            out+=";";
-            out+=object.getUnusedParentMethods();
+            double pas = object.getParentsAttributes().size();
+            double uas = object.getUnusedParentAttributes().size();
+            double pms = object.getParentsMethods().size();
+            double ums = object.getUnusedParentMethods().size();
+
+            out+=object.getFullName()+", ";
+            out+=pas+", ";
+            out+=uas+", ";
+            out+=100-100*uas/pas+", ";
+            out+=pms+", ";
+            out+=ums+", ";
+            out+=100-100*ums/pms+", ";
             out+="\n";
+
+            tpas+=pas;
+            tuas+=uas;
+            tpms+=pms;
+            tums+=ums;
         }
 
-        System.out.println(out);
-
+        out+="Total, ";
+        out+=tpas+", ";
+        out+=tuas+", ";
+        out+=100-100*tuas/tpas+", ";
+        out+=tpms+", ";
+        out+=tums+", ";
+        out+=100-100*tums/tpms+", ";
         printCSV(out);
     }
 
@@ -65,8 +87,10 @@ public class ClassManager {
     }
 
     public static void main(String[] args) {
-        ClassFinder.setProjectPath("/home/rabbi/bin/samples/effective-java-examples-master");
+        String projectPath="/home/rabbi/bin/samples/effective-java-examples-master";
+        String outputFolder="/home/rabbi/bin/samples/output";
 
-        ClassManager classManager = new ClassManager("/home/rabbi/bin/samples/output");
+        ClassFinder.setProjectPath(projectPath);
+        ClassManager classManager = new ClassManager(outputFolder);
     }
 }

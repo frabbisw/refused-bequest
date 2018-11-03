@@ -77,8 +77,7 @@ public class MethodManager {
     private void inspectAssignExpr(AssignExpr n) {
         String objectName = n.getTarget().toString();
         //do staff with full class name and parent attributes
-        if(handler.getInherObject().getParentsAttributes().contains(objectName))
-        {
+        if(handler.getInherObject().getParentsAttributes().contains(objectName)) {
             handler.getInherObject().addUsedAttribute(objectName);
         }
     }
@@ -93,6 +92,10 @@ public class MethodManager {
         if(methodCall.getScope().isPresent())
         {
             String objectName=methodCall.getScope().get().toString();
+
+            //check if called object is inherited attr
+            inherManager.addUsedAttribute(handler.getFullName(), objectName);
+
             String className=null;
             if(globalMap.containsKey(objectName))   className=globalMap.get(objectName);
             if(localMap.containsKey(objectName))   className=localMap.get(objectName);
