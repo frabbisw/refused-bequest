@@ -85,12 +85,4 @@ public class ClassManager {
             ClassCollaborator collaborator = new ClassCollaborator(handler, inherManager);
         }
     }
-
-    public static void main(String[] args) {
-        String projectPath="/home/rabbi/bin/samples/effective-java-examples-master";
-        String outputFolder="/home/rabbi/bin/samples/output";
-
-        ClassFinder.setProjectPath(projectPath);
-        ClassManager classManager = new ClassManager(outputFolder);
-    }
 }

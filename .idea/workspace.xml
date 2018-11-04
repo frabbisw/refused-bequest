@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b27c5ee-8c1b-499c-91ba-b470136f2d28" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tool/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tool/RefusedBequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3752" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid3914" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4013" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4307" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4578" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4768" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4861" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid4981" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.attach_pid5072" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/refused bequest/manage_collaboration/ClassManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/refused bequest/manage_collaboration/ClassManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/refused bequest/manage_collaboration/MethodManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/refused bequest/manage_collaboration/MethodManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/manage_collaboration/ClassManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage_collaboration/ClassManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manage_collaboration/MethodManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manage_collaboration/MethodManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +26,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+            <state relative-caret-position="245">
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,24 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassObjectHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/tool/RefusedBequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4734#4735#0" expanded="true" />
-                <element signature="e#4778#4779#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manage_collaboration/MethodManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="180">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,13 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassCollaborator.java">
+        <entry file="file://$PROJECT_DIR$/src/tool/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -114,6 +107,8 @@
         <option value="$PROJECT_DIR$/src/manage_collaboration/ClassCollaborator.java" />
         <option value="$PROJECT_DIR$/src/manage_inheritence/InherObject.java" />
         <option value="$PROJECT_DIR$/src/manage_collaboration/MethodManager.java" />
+        <option value="$PROJECT_DIR$/src/tool/RefusedBequest.java" />
+        <option value="$PROJECT_DIR$/src/tool/Main.java" />
         <option value="$PROJECT_DIR$/src/manage_collaboration/ClassManager.java" />
       </list>
     </option>
@@ -137,6 +132,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,17 +155,16 @@
               <item name="refused bequest" type="b2602c69:ProjectViewProjectNode" />
               <item name="refused bequest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="manage_inheritence" type="462c0819:PsiDirectoryNode" />
+              <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541232276764" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541359112685" />
     <property name="last_opened_file_path" value="$USER_HOME$/bin/javaparser-core-3.6.19.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -197,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClassManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClassManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="manage_collaboration.ClassManager" />
       <module name="refused bequest" />
@@ -237,8 +232,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tool.Main" />
+      <module name="refused bequest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClassManager" />
         <item itemvalue="Application.InherManager" />
         <item itemvalue="Application.FileExplorer" />
@@ -259,10 +268,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18406375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1936255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,12 +280,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41774192" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41774192" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31774193" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31774193" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329582" />
@@ -356,19 +365,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassCollaborator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassObjectHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="335">
           <caret line="148" column="37" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -388,10 +387,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassCollaborator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tool/RefusedBequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/manage_collaboration/ClassManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        <state relative-caret-position="245">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
